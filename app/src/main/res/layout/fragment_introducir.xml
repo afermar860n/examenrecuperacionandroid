@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para introducir el ID del alumno -->
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID del alumno"
+        android:inputType="number" />
+
+    <!-- Campo para el nombre -->
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del alumno" />
+
+    <!-- Campo para la nota de Matemáticas -->
+    <EditText
+        android:id="@+id/etMates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota de Matemáticas"
+        android:inputType="number" />
+
+    <!-- Campo para la nota de Lengua -->
+    <EditText
+        android:id="@+id/etLengua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota de Lengua"
+        android:inputType="number" />
+
+    <!-- Campo para la nota de Informática -->
+    <EditText
+        android:id="@+id/etInformatica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota de Informática"
+        android:inputType="number" />
+
+    <!-- Campo para la nota de Inglés -->
+    <EditText
+        android:id="@+id/etIngles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nota de Inglés"
+        android:inputType="number" />
+
+    <!-- Botón para insertar -->
+    <Button
+        android:id="@+id/btnInsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar" />
+
+    <!-- Botón para cancelar -->
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar" />
+</LinearLayout>
